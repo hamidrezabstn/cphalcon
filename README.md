@@ -62,10 +62,12 @@ On a Unix-based platform you can easily compile and install the extension from s
 
 Prerequisite packages are:
 
-* PHP 5.5.x/5.6.x/7.0.x/7.1.x development resources (PHP 5.3 and 5.4 are no longer supported)
+* PHP 5.5.x/5.6.x/7.0.x/7.1.x/7.2.x development resources (PHP 5.3 and 5.4 are no longer supported)
 * `g++` >= 4.4 | `clang++` >= 3.x | `vc++` >= 11
 * GNU `make` >= 3.81
 * [`re2c`](http://re2c.org) >= 0.13
+
+NOTE: Support for PHP 5.x is provided on a best-effort basis and will be removed in near future.
 
 ##### Ubuntu
 
@@ -141,7 +143,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 * [Documentation](https://docs.phalconphp.com/)
 * [Support](https://forum.phalconphp.com)
-* [Blog](https://blog.phalconphp.com)
 * [Zephir](https://zephir-lang.com/)
 * [Twitter](https://twitter.com/phalconphp)
 
